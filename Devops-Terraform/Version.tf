@@ -16,9 +16,9 @@ terraform {
         }
     }
 # Terraform Backend - To Store State files using Azure Storage Account
-/*backend "azurerm" {
+backend "azurerm" {
                                                 # Empty - We will implement this in Release Pipelines 
-} */
+} 
 } 
 
 
