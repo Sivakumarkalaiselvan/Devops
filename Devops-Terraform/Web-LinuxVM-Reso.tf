@@ -21,7 +21,7 @@ resource "azurerm_linux_virtual_machine" "web_linuxvm" {
     computer_name = "web-linux-vm"                              # HostName (Optional)                            
     resource_group_name = azurerm_resource_group.rg_1.name
     location = azurerm_resource_group.rg_1.location
-    size = "Standard_DS1_V2"
+    size = "Standard_B2s"
     admin_username = "azureuser"
     network_interface_ids = [azurerm_network_interface.web_linuxvm_nic.id]
     admin_ssh_key{
