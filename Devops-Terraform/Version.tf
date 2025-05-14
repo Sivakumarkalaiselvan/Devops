@@ -25,6 +25,6 @@ backend "azurerm" {
 # Providers Block
 provider "azurerm" {
     features {}
-    subscription_id = "9950ca22-4ad3-4d10-a3e8-7fbbd00944f7"
-    tenant_id = "db5b5fc8-c7d5-4cf6-a99d-0073571418a3"
+    subscription_id = "0925a1ac-409e-41ec-9dd0-48c1a87205c4"
+    tenant_id = "c54b3fa1-db9a-4033-a639-b0ce8c1fdac5"
 }
