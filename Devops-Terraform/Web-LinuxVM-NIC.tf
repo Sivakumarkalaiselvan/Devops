@@ -7,7 +7,7 @@ resource "azurerm_network_interface" "web_linuxvm_nic"{
       name = "weblinuxvm-ip"
       subnet_id = azurerm_subnet.web_subnet.id
       private_ip_address_allocation = "Dynamic"
-     # public_ip_address_id = azurerm_public_ip.web_linuxvm_publicip.id
+      public_ip_address_id = azurerm_public_ip.web_linuxvm_publicip.id
       #Primary = True                                      #If you're using multiple ip config block set one block as primary                                3
     }
 }
